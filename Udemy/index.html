@@ -7,19 +7,17 @@
     <title>Кнопки и ссылки</title>
 </head>
 <body>
-    <h1>Работа со ссылками</h1>
-    <p>Меню</p>
+    <h1>Images</h1>
     <ul>
-        <li><a href="#Link_1">Link 1</a></li>
-        <li><a href="#Link_2">Link 2</a></li>
-        <li><a href="#Link_3">Link 3</a></li>
+        <li>JPG/JPEG</li>
+        <li>PNG</li>
+        <li>GIF</li>
+        <li>Webp</li>
     </ul>
-    <div class="link">
-        <p>Lorem ipsum <a href="#2" class="dolor">dolor</a>  sit amet, consectetur adipisicing elit. Ipsum voluptatibus aliquam inventore pariatur eligendi at quam sint possimus repudiandae, minus magnam cum accusantium beatae eos quia sequi quae? Minima, molestias.</p>
-    </div>
-    <button class="button">BUTTON</button>
-    
-    <a href="#" class="button">button too</a>
-    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae inventore atque minima deserunt earum a velit molestias fuga voluptatibus distinctio, voluptatum, asperiores delectus corporis illo quidem repellendus quod perspiciatis commodi?</p> -->
+    <picture>
+        <source type="image/webp" srcset="img/media.webp">
+        <source type="image/jpg" srcset="img/media.jpg">
+        <img src="img/media.jpg" alt="forest">
+    </picture>
 </body>
 </html>
