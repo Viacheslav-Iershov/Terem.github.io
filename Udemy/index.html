@@ -3,21 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta name = 'description' content="some text here">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Кнопки и ссылки</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <title>блочная модель</title>
+    <style>
+        html, body{
+            margin: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: darkcyan;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
-    <h1>Images</h1>
-    <ul>
-        <li>JPG/JPEG</li>
-        <li>PNG</li>
-        <li>GIF</li>
-        <li>Webp</li>
-    </ul>
-    <picture>
-        <source type="image/webp" srcset="img/media.webp">
-        <source type="image/jpg" srcset="img/media.jpg">
-        <img src="img/media.jpg" alt="forest">
-    </picture>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
 </body>
-</html>
+</html> 
